@@ -1270,7 +1270,7 @@ class Component extends DCLogic {
     };
     let thread = null;
     const st = findOpen(0, 0.62), gl = findOpen(cols - 1, 0.30);
-    if (st != null && gl != null) {
+    if (w >= 760 && st != null && gl != null) {
       const cells = this.bfsPath(maze, st, gl, blocked);
       if (cells) {
         const pts = [[0, ((st / cols) | 0) * cs + cs / 2]];
