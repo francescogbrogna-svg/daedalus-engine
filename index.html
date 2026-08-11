@@ -1235,7 +1235,7 @@ class Component extends DCLogic {
     const x0 = (w - wordW) / 2;
     const wm = oc.measureText(word);
     const asc = wm.actualBoundingBoxAscent || F * 0.72, desc = wm.actualBoundingBoxDescent || F * 0.02;
-    const baseY = h * 0.38 + (asc - desc) / 2;
+    const baseY = h * (w < 760 ? 0.20 : 0.38) + (asc - desc) / 2;
     const letters = []; let lx = x0;
     oc.fillStyle = '#fff';
     for (let i = 0; i < word.length; i++) { oc.fillText(word[i], lx, baseY); letters.push([word[i], lx]); lx += letWs[i] + gap; }
