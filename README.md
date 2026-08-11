@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/hero.png" alt="Daedalus — an operating system for knowledge, decisions, and execution" />
+  <img src="docs/hero.png" alt="Daedalus: an operating system for knowledge, decisions, and execution" />
 </div>
 
 # Daedalus Engine
@@ -19,18 +19,18 @@ like any other Claude Code work.
 > doesn't do. The engine itself is in a private repository and access is given by request, one
 > person at a time.
 >
-> **[→ Request access](mailto:daedalus.engine.help@gmail.com?subject=Daedalus%20Engine%20—%20beta%20access)** · or read the [full presentation](https://francescogbrogna-svg.github.io/daedalus-engine/).
+> **[→ Request access](mailto:daedalus.engine.help@gmail.com?subject=Daedalus%20Engine%20beta%20access)** · or read the [full presentation](https://francescogbrogna-svg.github.io/daedalus-engine/).
 
 ---
 
 ## The idea
 
 Knowledge shouldn't live in a labyrinth. Notes in one app, sources across thirty tabs, decisions
-buried in AI chats that forget you the moment they end — the raw material of good thinking gets
+buried in AI chats that forget you the moment they end. The raw material of good thinking gets
 scattered, and every day starts with finding it again.
 
-Daedalus is one system that holds what you know, remembers what you decide, and — the part that
-matters — **adapts its own shape to how you work**. It doesn't ship as a fixed product. It begins
+Daedalus is one system that holds what you know, remembers what you decide, and does the part that
+matters: it **adapts its own shape to how you work**. It doesn't ship as a fixed product. It begins
 with a conversation about what you are working towards, and from the answers it generates the
 architecture around you.
 
@@ -40,9 +40,9 @@ architecture around you.
 |---|---|
 | **1. The interview** | `/setup` asks what you want to achieve, what your material is, how you work. A few minutes, in plain language. |
 | **2. The knowledge base** | `raw/` → `wiki/` → `output/`: sources become worked, cross-linked notes that always point back to where a claim came from. |
-| **3. Memory & context** | Who you are, what you decided, how the system should behave — carried across sessions instead of evaporating between them. |
+| **3. Memory & context** | Who you are, what you decided, how the system should behave: carried across sessions instead of evaporating between them. |
 | **4. The agents** | Out of a library of **217**, the interview picks the handful your goal needs and installs them into your vault as plain files you own. |
-| **5. Capture** | `/capture <url>` pulls an article, or a video through the captions it publishes, into `raw/` with its source attached — then works it up like anything else. No account, no key. |
+| **5. Capture** | `/capture <url>` pulls an article, or a video through the captions it publishes, into `raw/` with its source attached, then works it up like anything else. No account, no key. |
 | **6. The loop** | `/prime` → `/create-plan` → `/implement` → `/commit`. Plan, approve, execute, version. Nothing consequential happens without your sign-off. |
 
 <div align="center">
@@ -61,19 +61,19 @@ of client projects, a research paper, or the operations of a small business. The
 
 ## Design principles
 
-- **Human approval before any consequential action** — the gate is never automated away.
-- **Every change is diffed, versioned, reversible** — it is all Markdown in git.
+- **Human approval before any consequential action**: the gate is never automated away.
+- **Every change is diffed, versioned, reversible**: it is all Markdown in git.
 - **Code where code is enough**, AI reserved for genuine judgment.
-- **Your files stay yours** — Markdown in a folder you own, no database, no service, no telemetry.
+- **Your files stay yours**: Markdown in a folder you own, no database, no service, no telemetry.
   (Inference is not local: prompts and file contents go to Anthropic through your own login, as in
   any Claude Code session.)
-- **Text, not spreadsheets** — what it keeps and connects is Markdown: notes, documents, sources.
+- **Text, not spreadsheets**: what it keeps and connects is Markdown (notes, documents, sources).
   It can drive other files when you ask, but that is not what it is for.
 
 ## What's in v1, and what isn't
 
 **In:** the interview, the knowledge pipeline, layered context, the agent library, capture from a
-URL, and the five commands — everything driven from the terminal through Claude Code.
+URL, and the five commands. Everything is driven from the terminal through Claude Code.
 
 **Not yet:** the visual control room and the automated ingestion pipelines. They exist in the system
 I use every day; they ship when they are good enough to hand to someone else. v1 is terminal-first
@@ -84,7 +84,7 @@ on purpose: fewer moving parts, nothing to install, nothing to break.
 The beta is closed: access is by request, so that I can help when something breaks and hear what
 actually needs fixing.
 
-**[Request access →](mailto:daedalus.engine.help@gmail.com?subject=Daedalus%20Engine%20—%20beta%20access)**
+**[Request access →](mailto:daedalus.engine.help@gmail.com?subject=Daedalus%20Engine%20beta%20access)**
 
 ## License
 
